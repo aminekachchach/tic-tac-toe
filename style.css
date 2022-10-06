@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&display=swap');
+/* {
+    font-family: 'Poppins', sans-serif;
+
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #9C84B3;
+}
+
+h1 {
+    font-size: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(250, 124, 126);
+    font-family: 'Poppins', sans-serif;
+}
+
+#gameboard-container {
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    margin-bottom: 20px;
+    border: 6px solid black;
+    border-radius: 10% 10vh;
+}
+
+.box0 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 4px;
+    border-right: black solid 4px;
+    justify-items: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+}
+.box1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 4px;
+    border-left: black solid 4px;
+    border-right: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 4px;
+    border-left: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 4px;
+    border-top: black solid 4px;
+    border-right: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: black solid 4px;
+    border-top: black solid 4px;
+    border-left: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 4px;
+    border-right: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box7 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-right: black solid 4px;
+    border-top: black solid 4px;
+    border-left: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+.box8 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: black solid 4px;
+    border-left: black solid 4px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    color: #FADB75;
+
+}
+
+#winner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    height: 40px;
+    width: 350px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(32, 15, 65);
+    background-color: rgb(245, 236, 202);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+}
+
+#resetBtn {
+    outline-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 200px;
+    border-radius: 10px;
+    border: none;
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(32, 15, 65);
+    background-color: #7AC1C1;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: 0.5s;
+
+}
+
+#resetBtn:hover{
+    color: rgb(88, 37, 192);
+    background-color: #93b9b9;
+    transition: 0.5s;
+}
